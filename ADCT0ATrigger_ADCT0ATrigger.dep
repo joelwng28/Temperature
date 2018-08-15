@@ -1,0 +1,30 @@
+Dependencies for Project 'ADCT0ATrigger', Target 'ADCT0ATrigger': (DO NOT MODIFY !)
+F (.\startup.s)(0x5A613E2F)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\ADCT0ATrigger.c)(0x5ACAF1D7)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adct0atrigger.o --omf_browse .\adct0atrigger.crf --depend .\adct0atrigger.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (../inc/tm4c123gh6pm.h)(0x5A613DFE)
+I (ADCT0ATrigger.h)(0x5ACAF272)
+F (.\PLL.c)(0x5A613E2F)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PLL.h)(0x5A613E2F)
+I (../inc/tm4c123gh6pm.h)(0x5A613DFE)
+F (.\ST7735.c)(0x5A690AFC)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (ST7735.h)(0x5A613E1F)
+I (../inc/tm4c123gh6pm.h)(0x5A613DFE)
+F (.\UART.c)(0x5AC91A3F)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (UART.h)(0x5AC91A3F)
+I (../inc/tm4c123gh6pm.h)(0x5A613DFE)
+F (.\Main.c)(0x5ACAF259)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C88A34)
+I (ADCT0ATrigger.h)(0x5ACAF272)
+I (ST7735.h)(0x5A613E1F)
+I (UART.h)(0x5AC91A3F)
+I (PLL.h)(0x5A613E2F)
+I (calib.h)(0x5ACAF290)
+F (.\calib.c)(0x5ACAF292)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\calib.o --omf_browse .\calib.crf --depend .\calib.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
